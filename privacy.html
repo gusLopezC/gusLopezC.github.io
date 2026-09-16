@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Política de privacidad — Hermes Gmail</title>
+  <style>
+    body { font-family: -apple-system, Segoe UI, Roboto, sans-serif; max-width: 640px; margin: 48px auto; padding: 0 16px; color: #202124; line-height: 1.6; }
+    h1 { color: #1a73e8; }
+  </style>
+</head>
+<body>
+  <h1>Política de privacidad</h1>
+  <p><em>Ultima actualización: 16 de septiembre de 2026</em></p>
+
+  <h2>1. Qué hace esta aplicación</h2>
+  <p><b>Hermes Gmail</b> es una integración personal del agente de IA <b>Hermes</b> con Gmail.
+     Revisa periódicamente la bandeja de entrada de la cuenta de Google que el propietario autoriza,
+     identifica correos clasificados por Gmail como promociones, social, foros o actualizaciones,
+     los mueve a la Papelera y genera un resumen que se envía al propietario.</p>
+
+  <h2>2. Alcance de acceso (scopes)</h2>
+  <p>Se utiliza únicamente el alcance <code>gmail.modify</code>, que permite:
+     leer correos para clasificarlos y moverlos a la Papelera (o a la carpeta de Spam).
+     <b>No se envían correos</b> y <b>no se accede a otras cuentas</b>.</p>
+
+  <h2>3. Datos procesados y retención</h2>
+  <ul>
+    <li><b>Remitente, asunto y etiquetas</b> de los correos recientes (últimas 24 horas).</li>
+    <li>Un registro local (log) en el servidor del propietario con el resumen del procesamiento.</li>
+  </ul>
+  <p>El contenido de los correos se lee de forma mínima (metadatos) solo para clasificarlos.
+     El log se conserva en el servidor privado del propietario y no se comparte con terceros.</p>
+
+  <h2>4. Terceros y envío de datos</h2>
+  <p>El tráfico ocurre entre el servidor del propietario y las APIs oficiales de Google (Gmail API).
+     No se vende, comparte ni transfiere información a terceros.</p>
+
+  <h2>5. Eliminación y revocación</h2>
+  <p>El propietario puede revocar el acceso en cualquier momento desde
+     <a href="https://myaccount.google.com/permissions" rel="noopener">Google: apps con acceso a tu cuenta</a>.
+     El log local puede borrarse eliminando el archivo <code>gmail_manager.log</code> del servidor.</p>
+
+  <h2>6. Contacto</h2>
+  <p>El propietario de la cuenta de Gmail autorizada. Soporte a través del canal de Telegram personal.</p>
+</body>
+</html>
